@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cinza_claro"
-    tools:context=".activity.ConfiguracoesActivity"
+    tools:context=".ui.activity.ConfiguracoesActivity"
     tools:layout_editor_absoluteY="25dp">
 
     <include

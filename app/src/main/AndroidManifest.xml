@@ -17,40 +17,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.LoginActivity">
+        <activity android:name=".ui.activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.CadastroActivity" />
+        <activity android:name=".ui.activity.MainActivity" />
+        <activity android:name=".ui.activity.CadastroActivity" />
         <activity
-            android:name=".activity.ConfiguracoesActivity"
-            android:parentActivityName=".activity.MainActivity" />
+            android:name=".ui.activity.ConfiguracoesActivity"
+            android:parentActivityName=".ui.activity.MainActivity" />
         <activity
-            android:name=".activity.ChatActivity"
+            android:name=".ui.activity.ChatActivity"
             android:label="@string/title_activity_chat"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName=".ui.activity.MainActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.californiamobile.whatsappudemy.activity.MainActivity" />
+                android:value=".ui.activity.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.GrupoActivity"
+            android:name=".ui.activity.GrupoActivity"
             android:label="@string/title_activity_grupo"
-            android:parentActivityName=".activity.MainActivity"
+            android:parentActivityName=".ui.activity.MainActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.CadastroGrupoActivity"
+            android:name=".ui.activity.CadastroGrupoActivity"
             android:label="@string/title_activity_cadastro_grupo"
-            android:parentActivityName=".activity.GrupoActivity"
+            android:parentActivityName=".ui.activity.GrupoActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.californiamobile.whatsappudemy.activity.GrupoActivity" />
+                android:value=".ui.activity.GrupoActivity" />
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package br.com.californiamobile.whatsappudemy.adapter;
+package br.com.californiamobile.whatsappudemy.ui.adapter;
 
 import android.content.Context;
 import android.net.Uri;

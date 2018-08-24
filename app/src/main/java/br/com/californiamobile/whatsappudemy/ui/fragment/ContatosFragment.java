@@ -1,4 +1,4 @@
-package br.com.californiamobile.whatsappudemy.fragment;
+package br.com.californiamobile.whatsappudemy.ui.fragment;
 
 
 import android.content.Intent;
@@ -21,9 +21,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.californiamobile.whatsappudemy.R;
-import br.com.californiamobile.whatsappudemy.activity.ChatActivity;
-import br.com.californiamobile.whatsappudemy.activity.GrupoActivity;
-import br.com.californiamobile.whatsappudemy.adapter.AdapterContatos;
+import br.com.californiamobile.whatsappudemy.ui.activity.ChatActivity;
+import br.com.californiamobile.whatsappudemy.ui.activity.GrupoActivity;
+import br.com.californiamobile.whatsappudemy.ui.adapter.AdapterContatos;
 import br.com.californiamobile.whatsappudemy.config.ConfiguracaoFirebase;
 import br.com.californiamobile.whatsappudemy.helper.RecyclerItemClickListener;
 import br.com.californiamobile.whatsappudemy.helper.UsuarioFirebase;
