@@ -8,11 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
-
 import java.util.List;
-
 import br.com.californiamobile.whatsappudemy.R;
 import br.com.californiamobile.whatsappudemy.model.Conversa;
 import br.com.californiamobile.whatsappudemy.model.Grupo;

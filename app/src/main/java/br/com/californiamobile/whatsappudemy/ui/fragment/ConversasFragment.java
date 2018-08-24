@@ -10,15 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import br.com.californiamobile.whatsappudemy.R;
 import br.com.californiamobile.whatsappudemy.ui.activity.ChatActivity;
 import br.com.californiamobile.whatsappudemy.ui.adapter.AdapterConversas;
