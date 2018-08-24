@@ -2,6 +2,7 @@ package br.com.californiamobile.whatsappudemy.model;
 
 import com.google.firebase.database.DatabaseReference;
 import br.com.californiamobile.whatsappudemy.config.ConfiguracaoFirebase;
+
 public class Conversa {
 
     private String idRemetente, idDestinatario, ultimaMensagem, isGroup;
@@ -17,8 +18,6 @@ public class Conversa {
 
 
     //Getters e Setters
-
-
     public Grupo getGrupo() {
         return grupo;
     }

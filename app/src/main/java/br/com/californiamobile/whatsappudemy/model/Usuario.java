@@ -1,15 +1,12 @@
 package br.com.californiamobile.whatsappudemy.model;
 
 import android.util.Log;
-
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Exclude;
 import com.google.firebase.database.FirebaseDatabase;
-
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-
 import br.com.californiamobile.whatsappudemy.config.ConfiguracaoFirebase;
 import br.com.californiamobile.whatsappudemy.helper.UsuarioFirebase;
 
