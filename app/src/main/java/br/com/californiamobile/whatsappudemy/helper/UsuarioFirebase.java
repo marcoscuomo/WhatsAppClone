@@ -3,13 +3,11 @@ package br.com.californiamobile.whatsappudemy.helper;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
-
 import br.com.californiamobile.whatsappudemy.config.ConfiguracaoFirebase;
 import br.com.californiamobile.whatsappudemy.model.Usuario;
 
