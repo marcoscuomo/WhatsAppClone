@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "444106788557",
+    "firebase_url": "https://whatsapp-udemy-ddc8e.firebaseio.com",
+    "project_id": "whatsapp-udemy-ddc8e",
+    "storage_bucket": "whatsapp-udemy-ddc8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444106788557:android:f80305632352e80f",
+        "android_client_info": {
+          "package_name": "br.com.californiamobile.whatsappudemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444106788557-jjj2ugsprl853bj6ag7duunkq7je4brd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.californiamobile.whatsappudemy",
+            "certificate_hash": "497418516bd06c2c29c4e48e5dd29a8f4bbb9efd"
+          }
+        },
+        {
+          "client_id": "444106788557-h098vvksjng4eb55q5435g28c1gb0e0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFWGQ2GB0Wv9VCtH-8cWPRiJoTSHuePoc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444106788557-h098vvksjng4eb55q5435g28c1gb0e0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
