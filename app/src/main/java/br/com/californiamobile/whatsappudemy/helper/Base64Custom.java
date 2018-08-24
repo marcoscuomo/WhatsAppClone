@@ -1,8 +1,9 @@
 package br.com.californiamobile.whatsappudemy.helper;
 
 import android.util.Base64;
-// codificarBase64 decodificarBase64
 
+
+// codificarBase64 decodificarBase64
 public class Base64Custom {
 
     public static String codificarBase64 (String texto){
